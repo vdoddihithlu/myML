@@ -7,8 +7,8 @@ def get_pypackages(file_path:str) -> List[str]:
     '''
     pkglist =[]
     with open (file_path) as file_obj:
-        pkglist = file_obj.readlines()
-        pkglist = [pkg.replace("\n"," ") for pkg in pkglist]
+        pkgs = file_obj.readlines()
+        pkglist = [pkg.replace("\n"," ") for pkg in pkgs]
       #  for pkg in pkgs:
       #      pkg=pkg.replace("/n","")
       #      pkglist.append(pkg)
