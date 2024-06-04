@@ -14,3 +14,11 @@ git add . # . is all
 git commit -m "new comit"
 git push -u origin main
 git status
+
+setup.py, requirments.txt
+exceptions.py logger.py
+EDA - >  preprocessing - nulls, missing values
+    -> visuals for analysis
+Model seletion
+Components -> ingestion, transformation, Trainer
+pipeline -> train, predict
