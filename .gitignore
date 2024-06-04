@@ -38,7 +38,7 @@ pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 artifacts/
-notebook/data/
+notebook/
 htmlcov/
 .tox/
 .nox/
