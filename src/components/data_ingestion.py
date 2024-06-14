@@ -19,7 +19,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         try:
             logging.info("Starting to ingest data")
-            df=pd.read_csv("notebook\data\population.csv")
+            df=pd.read_csv("notebook\data\kc_house_data.csv")
 
             logging.info("train test split")
             train, test = train_test_split(df, test_size=0.2, random_state=42)
